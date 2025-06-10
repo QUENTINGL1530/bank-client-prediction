@@ -1,4 +1,4 @@
-age,job,marital,education,default,balance,housing,loan,contact,day,month,duration,campaign,pdays,previous,poutcome,y,age_group
+age,job,marital,education,default,balance,housing,loan,contact,day,month,duration,campaign,pdays,previous,poutcome,y,tranche_age
 33,admin.,married,tertiary,no,882,no,no,telephone,21,oct,39,1,151,3,failure,0,30-40
 42,admin.,single,secondary,no,-247,yes,yes,telephone,21,oct,519,1,166,1,other,1,40-50
 33,services,married,secondary,no,3444,yes,no,telephone,21,oct,144,1,91,4,failure,1,30-40

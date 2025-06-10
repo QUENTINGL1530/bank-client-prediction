@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('banking_data_cleaned.csv')
+df = pd.read_csv('data/banking_data_cleaned.csv')
 
 main_columns = [
     'age', 'job', 'marital', 'education', 'default', 'balance',

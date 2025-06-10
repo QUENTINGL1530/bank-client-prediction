@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_excel("Banking_Call_Data.xlsx", engine='openpyxl')
+df = pd.read_excel("data/Banking_Call_Data.xlsx", engine='openpyxl')
 df.replace("unknown", np.nan, inplace=True)
 df.dropna(inplace=True)
 df.drop_duplicates(inplace=True)
@@ -41,6 +41,9 @@ plt.xlabel('Age Group')
 plt.ylabel('Conversion Ratio (%)')
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.show()
+
+plt.tight_layout()
+plt.savefig('results/age_ratio.png')
+plt.close()
 
 
